@@ -1,0 +1,46 @@
+{
+  "name": "countdown-overlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "authon": "Elian Xavier",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianxavier/countdown-overlay.git"
+  },
+  "build": {
+    "appId": "com.elianxavier.countdownoverlay",
+    "productName": "Countdown Overlay",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico" 
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Countdown Overlay"
+    },
+    "files": [
+      "**/*"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elianxavier/countdown-overlay/issues"
+  },
+  "homepage": "https://github.com/elianxavier/countdown-overlay#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.4.0"
+  }
+}
