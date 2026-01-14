@@ -3,8 +3,6 @@
 Um timer flutuante, minimalista e **always-on-top** (sempre no topo) para Windows.  
 Desenvolvido com design "Flat Pill" (pílula), ideal para gerenciar o tempo sem perder o foco na tela principal.
 
-![Preview](https://via.placeholder.com/600x200?text=Preview+do+Timer+Aqui)
-
 ## ✨ Funcionalidades
 
 - **Sempre no Topo:** Fica sobre qualquer janela ou jogo.
